@@ -1,0 +1,23 @@
+&GATEWAY
+ coord=NdO.xyz
+ Basis set
+  ano-rcc-vqzp
+&SEWARD
+ RELAtivistic
+   R02O02
+
+&SCF
+UHF
+SPIN = 5
+
+&RASSCF
+fileorb=NdO.RasOrb
+inactive = 13   5   2   5
+ras2 = 61 42 25 42
+cionly
+LINEar
+symmetry = 4
+spin = 5
+nactel = 18,0,0
+  THRS= 1.0e-05 5.0e-02 5.0e-03
+dmpo
